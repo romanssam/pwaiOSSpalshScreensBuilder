@@ -1,0 +1,26 @@
+{
+  "name": "pwaiosspalshscreensbuilder",
+  "version": "1.0.0",
+  "description": "build splash screens for ios pwa from uploaded logo",
+  "main": "server.mjs",
+  "scripts": {
+    "start": "node --watch server.mjs"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/romanssam/pwaiOSSpalshScreensBuilder.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/romanssam/pwaiOSSpalshScreensBuilder/issues"
+  },
+  "homepage": "https://github.com/romanssam/pwaiOSSpalshScreensBuilder#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "cors": "^2.8.5",
+    "debug": "^4.3.4",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2"
+  }
+}
